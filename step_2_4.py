@@ -27,7 +27,7 @@ def get_local_ip():
     return ip
 
 local_ip = get_local_ip()
-app_url = f"http://{local_ip}:8501"
+app_url = f"https://github.com/wonderplace1/2211110350ljs"
 
 qr = qrcode.make(app_url)
 buf = io.BytesIO()
